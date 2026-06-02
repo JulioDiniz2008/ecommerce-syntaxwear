@@ -26,6 +26,12 @@ ol[role="list"] {
   list-style: none;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
+
 /* Make images easier to work with */
 img,
 picture {
