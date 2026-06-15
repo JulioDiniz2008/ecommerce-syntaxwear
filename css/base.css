@@ -1,17 +1,26 @@
 body {
     font-family: var(--fonte-principal);
     color: #333333;
-    
+
 }
 
-.btn{
+main {
+    padding: 2.5rem 2.5rem 0 2.5rem;
+    max-width: 1360px;
+    margin: 0 auto;
+
+}
+
+
+
+.btn {
     font-size: 1.25rem;
     width: 161px;
     height: 48px;
     border-radius: 25px;
     font-weight: 400;
     padding: 10px 20px;
-    transition: background-color 0.3s, border 0.3s ;
+    transition: background-color 0.3s, border 0.3s;
 
 }
 
@@ -19,11 +28,13 @@ body {
     background-color: transparent;
     border: 2px solid #ffffff;
     line-height: 23px;
+    color: #ffffff;
+
 }
 
 .btn-filled {
-   background-color: #ffffff;
-   color: #6329A2;
+    background-color: #ffffff;
+    color: #6329A2;
 }
 
 .btn:hover {
