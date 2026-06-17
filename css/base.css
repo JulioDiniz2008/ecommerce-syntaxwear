@@ -5,10 +5,9 @@ body {
 }
 
 main {
-    padding: 2.5rem 2.5rem 0 2.5rem;
+    padding: 2.5rem;
     max-width: 1360px;
     margin: 0 auto;
-
 }
 
 
@@ -41,4 +40,10 @@ main {
     background-color: #6329A2;
     color: #ffffff;
     border: #6329A2;
+}
+
+.footer-copy{
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 20px 0;
 }
