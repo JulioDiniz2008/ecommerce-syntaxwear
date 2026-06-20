@@ -29,33 +29,40 @@
             </a>
         </h1>
 
-        <nav class="nav-center" aria-label="Categorias Principais">
-            <ul>
-                <li><a href="#">Masculino</a></li>
-                <li><a href="#">Feminino</a></li>
-                <li><a href="#">Outlet</a></li>
-            </ul>
-        </nav>
-
-        <nav class="nav-right" aria-label="Menu Secundário">
-            <ul>
-                <li><a href="#">Nossas lojas</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li class="icons">
-                    <a href="#" aria-label="Minha conta" class="icon-link">
-                        <img class="icon" src="./imagem/icons/user.svg" alt="Ícone de usuário">
-                    </a>
-                    <a href="#" aria-label="Ajuda" class="icon-link">
-                        <img class="icon" src="./imagem/icons/help.svg" alt="Ícone de ajuda">
-                    </a>
-                    <a href="#" aria-label="Carrinho" class="icon-link">
-                        <img class="icon" src="./imagem/icons/bag.svg" alt="Ícone de carrinho">
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <input type="checkbox" class="menu-toggle" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <img src="./imagem/icons/hamburguer.svg" alt="menu mobile" srcset="">
+        </label>
 
 
+        <div class="nav-container">
+            <nav class="nav-center" aria-label="Categorias Principais">
+                <ul>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Outlet</a></li>
+                </ul>
+            </nav>
+
+
+            <nav class="nav-right" aria-label="Menu Secundário">
+                <ul>
+                    <li><a href="#">Nossas lojas</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li class="icons">
+                        <a href="#" aria-label="Minha conta" class="icon-link">
+                            <img class="icon" src="./imagem/icons/user.svg" alt="Ícone de usuário">
+                        </a>
+                        <a href="#" aria-label="Ajuda" class="icon-link">
+                            <img class="icon" src="./imagem/icons/help.svg" alt="Ícone de ajuda">
+                        </a>
+                        <a href="#" aria-label="Carrinho" class="icon-link">
+                            <img class="icon" src="./imagem/icons/bag.svg" alt="Ícone de carrinho">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
     </header>
 
@@ -169,7 +176,7 @@
 
 
             <!-- Masculino -->
-            <div class="footer-nav" id="footer">
+            <div class="footer-nav">
                 <div class="footer-column">
                     <strong>Masculino</strong>
                     <ul>
